@@ -1,0 +1,34 @@
+﻿<Window x:Class="CalcOnline.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalcOnline"
+        mc:Ignorable="d"
+        Title="Игрок 1" Height="323" Width="247">
+    <Grid>
+        <Label x:Name="Output" Content="0" HorizontalAlignment="Left" Margin="10,10,-40,0" VerticalAlignment="Top" Width="269" Height="27"/>
+        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Margin="145,211,0,0" VerticalAlignment="Top" Width="75" Height="34" FontSize="20" Click="Minus_Click"/>
+        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Margin="145,172,0,0" VerticalAlignment="Top" Width="75" Height="34" FontSize="20" Click="Plus_Click"/>
+        <Button x:Name="delit" Content="/" HorizontalAlignment="Left" Margin="145,133,0,0" VerticalAlignment="Top" Width="75" Height="34" FontSize="20" Click="Delit_Click"/>
+        <Button x:Name="mnoj" Content="*" HorizontalAlignment="Left" Margin="145,94,0,0" VerticalAlignment="Top" Width="75" Height="34" FontSize="20" Click="Mnoj_Click"/>
+        <Button x:Name="one" Content="1" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" Click="One_Click"/>
+        <Button x:Name="two" Content="2" HorizontalAlignment="Left" Margin="55,94,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" Click="Two_Click"/>
+        <Button x:Name="three" Content="3" HorizontalAlignment="Left" Margin="100,94,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="0.275,2.265" Click="Three_Click"/>
+        <Button x:Name="four" Content="4" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="0.275,2.265" Click="Four_Click"/>
+        <Button x:Name="five" Content="5" HorizontalAlignment="Left" Margin="55,133,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="0.275,2.265" Click="Five_Click"/>
+        <Button x:Name="six" Content="6" HorizontalAlignment="Left" Margin="100,133,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="0.275,2.265" Click="Six_Click"/>
+        <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Margin="100,172,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="0.275,2.265" Click="Nine_Click"/>
+        <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Margin="55,172,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="0.275,2.265" Click="Eight_Click"/>
+        <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="0.275,2.265" Click="Seven_Click"/>
+        <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Margin="55,211,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="1.6,0.588" Click="Zero_Click"/>
+        <Button x:Name="del" Content="del" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="0.275,2.265" Click="Del_Click"/>
+        <Button x:Name="rovno" Content="=" HorizontalAlignment="Left" Margin="145,249,0,0" VerticalAlignment="Top" Width="75" Height="34" FontSize="20" RenderTransformOrigin="0.275,2.265" Click="Rovno_Click"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="229"/>
+        <Button x:Name="point" Content="." HorizontalAlignment="Left" Margin="100,211,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="1.6,0.588" Click="point_Click"/>
+        <Button x:Name="leftskob" Content="(" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="1.6,0.588" Click="Leftskob_Click"/>
+        <Button x:Name="rightskob" Content=")" HorizontalAlignment="Left" Margin="55,250,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="20" RenderTransformOrigin="1.6,0.588" Click="Rightskob_Click"/>
+        <Label x:Name="CountLab" Content="0" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

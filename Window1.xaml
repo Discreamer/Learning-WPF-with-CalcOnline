@@ -1,0 +1,17 @@
+﻿<Window x:Class="CalcOnline.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalcOnline"
+        mc:Ignorable="d"
+        Title="Window1" Height="322" Width="239.261">
+    <Grid>
+        <Label x:Name="label" Content="Уровни сложности:" HorizontalAlignment="Left" Margin="41,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Easy" Content="Easy" HorizontalAlignment="Left" Margin="61,41,0,0" VerticalAlignment="Top" Width="75" Click="Easy_Click"/>
+        <Button x:Name="Medium" Content="Medium" HorizontalAlignment="Left" Margin="61,98,0,0" VerticalAlignment="Top" Width="75" Click="Medium_Click"/>
+        <Button x:Name="hard" Content="Hard" HorizontalAlignment="Left" Margin="61,163,0,0" VerticalAlignment="Top" Width="75" Click="Hard_Click"/>
+        <Button x:Name="Impossible" Content="Impossible" HorizontalAlignment="Left" Margin="61,226,0,0" VerticalAlignment="Top" Width="75" Click="Impossible_Click"/>
+
+    </Grid>
+</Window>
